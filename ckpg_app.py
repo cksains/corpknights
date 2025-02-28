@@ -12,7 +12,7 @@ import plotly.graph_objects as go
 import plotly.colors as pc
 
 # Load the CSV file
-csv_file_path = "data/sei_summary_1.csv"
+csv_file_path = "sei_summary_1.csv"
 df_summary = pd.read_csv(csv_file_path)
 
 # Standardizing column names
