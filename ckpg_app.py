@@ -11,6 +11,7 @@ import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
 import plotly.colors as pc
+import plotly.express as px
 
 # Load the CSV file
 csv_file_path = "sei_summary_1.csv"
